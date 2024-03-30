@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Личный кабинет.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+<header>
+    <nav>
+      <ul>
+        <li><a href="1(главная).html">Главная страница</a></li>
+        <li><a href="2(найти рецепт).html">Найти рецепт</a></li>
+        <li><a href="3(отзывы).html">Отзывы</a></li>
+        <li><a href="4(блог).html">Блог</a></li>
+        <li><a href="5(акции).html">Акции</a></li>
+        <li><a href="6(контакты).html">Контакты</a></li>
+        <li><a href="7(личный Кабинет).html">Личный Кабинет</a></li>
+        <li><a href="8(история и факты).html">История и факты</a></li>
+        <li><a href="9(здоровое питание).html">Здоровое питание</a></li>
+        <li><a href="10(советы по организации кухни).html">Советы по организации кухни</a></li>
+      </ul>
+    </nav>
+  </header>
+  <style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        form {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Создание личного кабинета</h1>
+        
+        <form action="login.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="first-name">Имя:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Фамилия:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+        
+        <p>Уже зарегистрированы? <a href="11(войти в аккаунт).html">Войти</a></p>
+    </div>
+</body>
+</html>

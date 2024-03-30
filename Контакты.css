@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cecfce;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  text-align: center;
+  padding: 50px;
+}
+
+.contact-info {
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 10 100px;
+  margin: 8%;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+body {
+  background-image: url("столик.jpg"); /* Путь к изображению */
+  background-size: cover; /* Масштабирование изображения по размеру окна */
+  background-repeat: no-repeat; /* Запрет повтора изображения */
+  background-attachment: fixed; /* Фиксация изображения на месте */
+  background-position: center; /* Позиционирование изображения по центру */
+}
+/* Медиа запросы для адаптивности */
+@media (max-width: 768px) {
+h1 {
+
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+ 
+  font-size: 16px;
+}
+}
+.contact-infoo {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.contact-infooo {
+  color: #ffffff;
+  margin-bottom: 20px;
+}

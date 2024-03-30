@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cecfce;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: Arial, sans-serif;
+background-color: #cecfce;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 30px;
+color: #ffffff;
+}
+
+.profile {
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+max-width: 100%;
+height: 500px;
+margin-bottom: 20px;
+}
+
+h2 {
+margin-bottom: 10px;
+color: #ffffff;
+}
+
+.order {
+margin-bottom: 20px;
+padding: 10px;
+background-color: #f9f9f9;
+}
+
+h3 {
+margin-bottom: 10px;
+color: #ffffff;
+}
+
+p {
+margin-bottom: 5px;
+color: #ffffff;
+}
+body {
+  background-image: url("столик.jpg"); /* Путь к изображению */
+  background-size: cover; /* Масштабирование изображения по размеру окна */
+  background-repeat: no-repeat; /* Запрет повтора изображения */
+  background-attachment: fixed; /* Фиксация изображения на месте */
+  background-position: center; /* Позиционирование изображения по центру */
+}
+/* Медиа запросы для адаптивности */
+@media (max-width: 768px) {
+h1 {
+
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+ 
+  font-size: 16px;
+}
+}
